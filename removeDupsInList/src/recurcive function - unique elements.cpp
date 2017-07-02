@@ -101,5 +101,3 @@ bool found_set(int value, const set<int>& s, set<int>::const_iterator it)
 
 	return (*it == value) || found_set(value, s, ++it);
 }
-
-//void found(int value, unordered_set<int> s, )'
